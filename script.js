@@ -59,6 +59,7 @@ var Counter = React.createClass({
 
 	shouldComponentUpdate: function() {
 		console.log('shouldComponentUpdate - porównuje komponent i sprawdza czy ma się wyswietlic ponownie w przypadku wykrycia zmian');
+		return true;
 	},
 
 	componentWillUpdate: function() {
